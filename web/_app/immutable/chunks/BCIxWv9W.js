@@ -1,0 +1,1 @@
+import{i as s}from"./Djz6f935.js";function u(e,r){let t=null;if(!e||typeof e!="string")return t;const i=s(e),c=typeof r=="function";return i.forEach(n=>{if(n.type!=="declaration")return;const{property:f,value:o}=n;c?r(f,o,n):o&&(t=t||{},t[f]=o)}),t}export{u as S};

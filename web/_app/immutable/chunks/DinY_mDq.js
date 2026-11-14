@@ -1,0 +1,1 @@
+import{f as e}from"./DPHqZ2sK.js";const r=(c,t=100)=>({...c,getAccounts:async(s,n)=>{const o=e(s,t).map(a=>c.getAccounts(a,n));return(await Promise.all(o)).flat()}}),h=(c=100)=>({install(t){t.rpc=r(t.rpc,c)}});export{h as c};

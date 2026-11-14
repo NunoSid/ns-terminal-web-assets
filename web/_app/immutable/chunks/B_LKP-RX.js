@@ -1,0 +1,1 @@
+import{ah as i,A as o}from"./r0qios97.js";import{c as s}from"./Qsbkj9b_.js";const p=s({create(){let e,t;const a=o(r=>(e=r,()=>{t&&t()}));return{depend(){a()},notify(){e&&e()},onStop(r){t=r}}},isInScope:()=>!!i(),onDispose(e,{onStop:t}){t(e)}});export{p as default};

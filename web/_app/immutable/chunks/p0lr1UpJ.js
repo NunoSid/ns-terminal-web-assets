@@ -1,0 +1,1 @@
+import{i as t}from"./CcoQ0mLI.js";const e={async getMachineUid(){try{return{status:"ok",data:await t("plugin:machine-uid|get_machine_uid")}}catch(r){if(r instanceof Error)throw r;return{status:"error",error:r}}}};export{e as c};

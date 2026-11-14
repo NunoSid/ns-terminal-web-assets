@@ -1,0 +1,1 @@
+const n=o=>({__option:"Some",value:o}),s=()=>({__option:"None"}),e=o=>o&&typeof o=="object"&&"__option"in o&&(o.__option==="Some"&&"value"in o||o.__option==="None"),_=o=>o.__option==="Some",t=o=>o!==null?n(o):s();export{_ as a,e as i,s as n,n as s,t as w};

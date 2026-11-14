@@ -1,0 +1,1 @@
+import{r as e,c as r}from"./DPHqZ2sK.js";function d(o){const s=async(n,t={})=>{const a=await o.http.send(e().get(n).withAbortSignal(t.signal));return r(a.body,n)};return{download:async(n,t={})=>Promise.all(n.map(a=>s(a,t))),downloadJson:async(n,t={})=>(await o.http.send(e().get(n).withAbortSignal(t.signal))).data}}const w=()=>({install(o){o.downloader=d(o)}});export{w as h};

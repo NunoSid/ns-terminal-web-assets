@@ -1,0 +1,1 @@
+var I=(r=>(r[r.WRITABLE_SIGNER=3]="WRITABLE_SIGNER",r[r.READONLY_SIGNER=2]="READONLY_SIGNER",r[r.WRITABLE=1]="WRITABLE",r[r.READONLY=0]="READONLY",r))(I||{}),L=1;function R(r){return r>=2}function a(r){return(r&L)!==0}function i(r,E){return r|E}export{I as A,a,R as i,i as m};
